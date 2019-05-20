@@ -1,0 +1,109 @@
+body{
+    background-color:violet;
+}
+.container{
+    width:500px;
+    height:400px;
+    background-color:white;
+    position: absolute;
+    left:33%;
+    top:5%;
+    border-radius: 5px;
+    
+}
+#uname{
+    position:absolute;
+    top: 10%;
+    left: 27%;
+    width: 250px;
+    height: 30px;
+    font-size: 15px;
+    font-family: 'Domine', serif;
+}
+
+#upassword{
+    position:absolute;
+    top: 39%;
+    left: 27%;
+    width: 250px;
+    height: 30px;
+    font-size: 15px;
+    font-family: 'Domine', serif;
+}
+#icp{
+    position:absolute;
+    top: 41%;
+    left: 20%;
+}
+#ihm{
+    position:absolute;
+    top: 11%;
+    left: 19%;
+}
+#chkme{
+    position:absolute;
+    top: 60%;
+    left: 26%;
+    width: 18px;
+    height: 18px;
+}
+#rmber{
+    position:absolute;
+    top: 61%;
+    left: 31%;
+    font-size: 15px;
+    font-family: 'Domine', serif;
+}
+#btn{
+    position:absolute;
+    top: 84%;
+    left: 43%;
+    width: 100px;
+    height: 35px;
+    font-family: 'Domine', serif;
+    font-size: 18px;
+    background-color:violet;
+    color: white;
+}
+#smg{
+    position:absolute;
+    top: 0%;
+    left: 76%;
+}
+#fmg{
+    position:absolute;
+    top: 0%;
+    left: 84%;
+}
+#tms{
+    position:absolute;
+    top: -1%;
+    left: 92%;
+}
+.Errmsg{
+    position:absolute;
+    top: 19%;
+    left: 27%;
+    display: none;
+    color: red;
+    font-size: 16px;
+    font-family: 'Domine', serif;
+}
+.PassErr{
+    position:absolute;
+    top: 48%;
+    left: 27%;
+    display: none;
+    color: red;
+    font-size: 16px;
+    font-family: 'Domine', serif;
+}
+#userMsg{
+    position:absolute;
+    top: 108%;
+    left: 33%;
+    font-size: 16px;
+    color: green;
+    display: none;
+    font-family: 'Domine', serif;
+}
